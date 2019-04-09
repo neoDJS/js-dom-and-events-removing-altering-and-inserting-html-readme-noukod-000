@@ -11,6 +11,6 @@
     li.innerHTML = (i + 1).toString();
     ul.appendChild(li);
   }
-      ul.style.textAlign = 'left';
-    ul.removeChild(ul.querySelector('li:nth-child(2)'));
-        ul.remove();
+  ul.style.textAlign = 'left';
+  ul.removeChild(ul.querySelector('li:nth-child(2)'));
+  ul.remove();
