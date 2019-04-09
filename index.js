@@ -10,3 +10,4 @@
     li.innerHTML = (i + 1).toString();
     ul.appendChild(li);
   }
+      ul.style.textAlign = 'left';
